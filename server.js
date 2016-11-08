@@ -7,18 +7,18 @@ app.use(morgan('combined'));
 
 
 var articles = {
-  'articles-one':{
+  'article-one':{
       title : 'One' ,
       content : `<p>This is a demo article
                  </p>`
   },
-  'artiles-two':{
+  'article-two':{
       title : 'two' ,
       content : `<p>This is a demo article
                  </p>`
       
   },
-  'articles-three':{
+  'article-three':{
       title : 'three' ,
       content : `<p>This is a demo article
                  </p>`
@@ -47,6 +47,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/:articleName', function (req, res) {
+    var articleName = req.params.articleName;
   res.send(createTemplate(articles[articleName]));
 });
 
