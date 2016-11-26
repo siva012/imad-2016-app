@@ -27,7 +27,7 @@ var articles = {
                         <label>Password:</label>
                         <input type="password" name="pass" placeholder="Password">
                       </div><br>
-                      <button class="ui button" type="submit">Submit</button>
+                      <button class="ui button" type="submit" onclick="sub();">Submit</button>
                 </form>`
   },
   'signin':{
@@ -59,6 +59,18 @@ function createTemplate(data){
                             <link href="/ui/semantic.css" rel="stylesheet" />
                             <script type="javascript" src="/ui/semantic.js">
                             </script>
+                            <script type="javascript">
+                                function sub(){
+                                    var pool1 = new Pool(config);
+                                    pool1.query("insert into login values(${})",function (err,result){
+                                    if(err){
+                                        res.status(500).send(err.toString());
+                                    }
+                                    else
+                                        res.send("Thank you for registering");
+                                });
+                                    
+                                }
                         </head>
                         <body>
                             ${content}
