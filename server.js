@@ -16,7 +16,7 @@ app.use(morgan('combined'));
 
 
 var articles = {
-  'article-one':{
+  'register':{
       title : 'One' ,
       content : `<p>This is a demo article
                  </p>`
