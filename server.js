@@ -22,7 +22,7 @@ var articles = {
                       <div class="field">
                         <label>Username: </label>
                         <input type="text" name="uname" placeholder="Username">
-                      </div><br>
+                      </div>
                       <div class="field">
                         <label>Password:</label>
                         <input type="password" name="pass" placeholder="Password">
