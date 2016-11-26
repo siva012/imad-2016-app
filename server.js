@@ -62,8 +62,8 @@ function createTemplate(data){
                         <head>
                             <title>${title}</title>
                             <link href="/ui/style.css" rel="stylesheet" />
-                            <link href="/ui/semantic.min.css" rel="stylesheet" />
-                            <script type="javascript" src="/ui/semantic.min.js">
+                            <link href="/ui/semantic.css" rel="stylesheet" />
+                            <script type="javascript" src="/ui/semantic.js">
                             </script>
                         </head>
                         <body>
