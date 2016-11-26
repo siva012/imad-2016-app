@@ -18,7 +18,7 @@ app.use(morgan('combined'));
 var articles = {
   'register':{
       title : 'Register' ,
-      content : `<form class="ui form">
+      content : `<form class="ui form" style= "margin-left: 40%;">
                       <div class="field">
                         <label>First Name</label>
                         <input type="text" name="first-name" placeholder="First Name">
