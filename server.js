@@ -18,8 +18,16 @@ app.use(morgan('combined'));
 var articles = {
   'register':{
       title : 'Register' ,
-      content : `<p>This is a demo article
-                 </p>`
+      content : `<form class= "ui form">
+                    <div class="field">
+                        <label>Usernamee</label>
+                        <input type="text" name="uname" placeholder="User Name">
+                     </div>
+                     <div class="field">
+                        <label>Last Name</label>
+                        <input type="password" name="pass" placeholder="Password">
+                    </div>
+                </form>`
   },
   'signin':{
       title : 'Sign-in' ,
@@ -47,6 +55,9 @@ function createTemplate(data){
                         <head>
                             <title>${title}</title>
                             <link href="/ui/style.css" rel="stylesheet" />
+                            <link href="/ui/semantic.min.css" rel="stylesheet" />
+                            <script type="javascript" src="/ui/semantic.min.js">
+                            </script>
                         </head>
                         <body>
                             ${content}
