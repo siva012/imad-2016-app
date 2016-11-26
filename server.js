@@ -30,7 +30,7 @@ var articles = {
   'about':{
       title : 'About' ,
       content : `<div>
-                    <h2>About Developer</h2>
+                    <h2 style="text-align: center; font-wight: bold; font-size: 250%;"><u>About Developer</u></h2>
                     <p>
                     This webapp was developed by Sivaram J, a student in Hindustan University.He is currently doing his 3rd year in Computer Science and Engineering.He is interested in programming and web development but spends most of his time playing Counter Strike:Global Offensive an online multiplayer game. He also watches a lot of animes and his favourites are One Piece , Dragon Ball series, Naruto. He aims on becomming a full stack developer and a professional gamer. 
                     </p>`
