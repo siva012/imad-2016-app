@@ -43,6 +43,7 @@ function createTemplate(data){
     var htmlContent= `<html>
                         <head>
                             <title>${title}</title>
+                            <link href="/ui/style.css" rel="stylesheet" />
                         </head>
                         <body>
                             ${content}
