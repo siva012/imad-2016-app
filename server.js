@@ -34,6 +34,7 @@ var articles = {
                         </div>
                       </div>
                       <button class="ui button" type="submit">Submit</button>
+                      <input type="submit" value="Submit">
                 </form>`
   },
   'signin':{
