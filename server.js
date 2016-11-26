@@ -27,7 +27,7 @@ var articles = {
                         <label>Password:</label>
                         <input type="password" name="pass" placeholder="Password">
                       </div><br>
-                      <button class="ui button" type="submit" onclick="sub();">Submit</button>
+                      <button class="ui button" type="submit">Submit</button>
                 </form>`
   },
   'signin':{
