@@ -17,20 +17,23 @@ app.use(morgan('combined'));
 
 var articles = {
   'register':{
-      title : 'One' ,
+      title : 'Register' ,
       content : `<p>This is a demo article
                  </p>`
   },
-  'article-two':{
-      title : 'two' ,
+  'signin':{
+      title : 'Sign-in' ,
       content : `<p>This is a demo article
                  </p>`
       
   },
-  'article-three':{
-      title : 'three' ,
-      content : `<p>This is a demo article
-                 </p>`
+  'about':{
+      title : 'About' ,
+      content : `<div>
+                    <h2>About Developer</h2>
+                    <p>
+                    This webapp was developed by Sivaram J, a student in Hindustan University.He is currently doing his 3rd year in Computer Science and Engineering.He is interested in programming and web development but spends most of his time playing Counter Strike:Global Offensive an online multiplayer game. He also watches a lot of animes and his favourites are One Piece , Dragon Ball series, Naruto. He aims on becomming a full stack developer and a professional gamer. 
+                    </p>`
       
   }
     
