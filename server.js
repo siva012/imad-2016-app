@@ -20,21 +20,14 @@ var articles = {
       title : 'Register' ,
       content : `<form class="ui form" style= "margin-left: 40%;">
                       <div class="field">
-                        <label>First Name</label>
-                        <input type="text" name="first-name" placeholder="First Name">
-                      </div>
+                        <label>Username: </label>
+                        <input type="text" name="uname" placeholder="Username">
+                      </div><br><br>
                       <div class="field">
-                        <label>Last Name</label>
-                        <input type="text" name="last-name" placeholder="Last Name">
-                      </div>
-                      <div class="field">
-                        <div class="ui checkbox">
-                          <input type="checkbox" tabindex="0" class="hidden">
-                          <label>I agree to the Terms and Conditions</label>
-                        </div>
-                      </div>
+                        <label>Password</label>
+                        <input type="password" name="pass" placeholder="Password">
+                      </div><br>
                       <button class="ui button" type="submit">Submit</button>
-                      <input type="submit" value="Submit">
                 </form>`
   },
   'signin':{
