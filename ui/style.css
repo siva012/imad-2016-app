@@ -20,3 +20,8 @@ body {
     height: 200px;
 }
 
+.lis{
+    font-size: 200%;
+    text-align: center;
+    color: black;
+}
